@@ -1,0 +1,114 @@
+.promotion-lottery {
+  background-color: #004e8f;
+}
+
+.promotion__button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.promotion__button {
+  width: 156px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.promotion__button:hover,
+.promotion__button:active {
+  opacity: 0.8;
+}
+
+.button-white {
+  background-color: white;
+  color: #004e8f;
+}
+
+.button-blue {
+  background-color: #195f9a;
+  color: white;
+}
+
+.promotion__text {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.promotion__text__title {
+  color: white;
+}
+
+.promotion__text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.promotion__text ul li {
+  font-size: 16px;
+  color: white;
+  list-style-type: none;
+}
+
+.promotion__text ul li:before {
+  content: "— ";
+  margin-left: -20px;
+  color: #fecc01;
+}
+
+.promotion__text ul li span {
+  color: #fecc01;
+}
+
+.lottery-list {
+  width: 312px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.lottery-list__title {
+  color: white;
+}
+
+.lottery-list__title span {
+  font-weight: 400;
+}
+
+.lottery-list__text {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  color: white;
+}
+
+.lottery-list__text::before {
+  content: url("../assets/img/lottery-list-symbol.png");
+}
+
+.lottery-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+}
+
+.lottery-list ul li {
+  list-style-type: none;
+}
+
+.lottery-list ul li img {
+  width: 80px;
+}
+
+.lottery-list__instant {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  color: white;
+}
+
+.lottery-list__instant::before {
+  content: url("../assets/img/clock.png");
+}

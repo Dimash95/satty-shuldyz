@@ -2,6 +2,8 @@
 @import "./css//header.css";
 @import "./css/burger-menu.css";
 @import "./css/millionaire.css";
+@import "./css/promotion-lottery.css";
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -11,4 +13,5 @@ body {
 .background-container {
   background: no-repeat;
   background-image: url("./assets/img/back.png");
-}/*# sourceMappingURL=style.css.map */
+}
+
