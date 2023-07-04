@@ -8,41 +8,47 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="header__container">
-        <div class="header__navbar">
-          <nav class="nav">
-            <ul>
-              <li>Лотереи</li>
-              <li>Акции</li>
-              <li>Кошелек</li>
-              <li>Мои билеты</li>
-              <li>Архив тиражей</li>
-              <li>Проверка билета</li>
-            </ul>
-          </nav>
+    <div class="background-container">
+      <header>
+        <div class="header__container">
+          <div class="header__navbar">
+            <nav class="nav">
+              <ul>
+                <li>Лотереи</li>
+                <li>Акции</li>
+                <li>Кошелек</li>
+                <li>Мои билеты</li>
+                <li>Архив тиражей</li>
+                <li>Проверка билета</li>
+              </ul>
+            </nav>
 
-          <div class="burger">
-            <span></span>
+            <div class="burger">
+              <span></span>
+            </div>
+
+            <img class="header__logo" src="assets/img/logo.png" alt="" />
+            <div class="header__title">Национальная лотерея</div>
           </div>
-
-          <img class="header__logo" src="assets/img/logo.png" alt="" />
-          <div class="header__title">Национальная лотерея</div>
+          <div class="header__icons">
+            <img
+              class="header__icons__bell"
+              src="./assets/img/уведомления.png"
+              alt=""
+            />
+            <div class="header__icons__kz">kz</div>
+          </div>
         </div>
-        <div class="header__icons">
-          <img
-            class="header__icons__bell"
-            src="./assets/img/уведомления.png"
-            alt=""
-          />
-          <div class="header__icons__kz">kz</div>
-        </div>
-      </div>
-    </header>
+      </header>
 
-    <section class="ospan">
-      <img src="./assets/img/ospan2.png" alt="" />
-    </section>
+      <section class="millionaire">
+        <p class="millionaire__date">С 15 января по 26 февраля 2023</p>
+        <h1 class="millionaire__title">Миллионер каждую неделю</h1>
+        <div class="background-image__ospan">
+          <button class="millionaire__button button">Подробнее</button>
+        </div>
+      </section>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
