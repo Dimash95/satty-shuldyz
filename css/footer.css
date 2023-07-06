@@ -1,9 +1,24 @@
-footer {
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -15px;
   padding: 10px;
-  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-color: white;
 }
 
-.footer__content {
+.footer a {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  font-size: 9px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer a img {
+  margin: 0 auto;
+  width: 30px;
 }
