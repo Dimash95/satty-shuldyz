@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fecc01;
 }
 
 .millionaire__date {
@@ -21,12 +22,18 @@
   text-transform: uppercase;
 }
 
+.background-image__svet {
+  background: no-repeat;
+  background-color: #fecc01;
+  background-image: url("../assets/img/svet.png");
+  background-size: contain;
+}
+
 .background-image__ospan {
   display: flex;
   justify-content: center;
   width: 360px;
   background-image: url("../assets/img/ospan2.png");
-  background-size: auto;
 }
 
 .millionaire__button {
@@ -40,5 +47,5 @@
   color: white;
   background: none;
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 15px;
 }

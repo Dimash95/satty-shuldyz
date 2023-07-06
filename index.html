@@ -8,68 +8,198 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="background-container">
-      <header>
-        <div class="header__container">
-          <div class="header__navbar">
-            <nav class="nav">
-              <ul>
-                <li>Лотереи</li>
-                <li>Акции</li>
-                <li>Кошелек</li>
-                <li>Мои билеты</li>
-                <li>Архив тиражей</li>
-                <li>Проверка билета</li>
-              </ul>
-            </nav>
+    <header>
+      <div class="header__container">
+        <div class="header__navbar">
+          <nav class="nav">
+            <ul>
+              <li>Лотереи</li>
+              <li>Акции</li>
+              <li>Кошелек</li>
+              <li>Мои билеты</li>
+              <li>Архив тиражей</li>
+              <li>Проверка билета</li>
+            </ul>
+          </nav>
 
-            <div class="burger">
-              <span></span>
-            </div>
+          <div class="burger">
+            <span></span>
+          </div>
 
-            <img class="header__logo" src="assets/img/logo.png" alt="" />
-            <div class="header__title">Национальная лотерея</div>
-          </div>
-          <div class="header__icons">
-            <img
-              class="header__icons__bell"
-              src="./assets/img/уведомления.png"
-              alt=""
-            />
-            <div class="header__icons__kz">kz</div>
-          </div>
+          <img class="header__logo" src="assets/img/logo.png" alt="" />
+          <div class="header__title">Национальная лотерея</div>
         </div>
-      </header>
+        <div class="header__icons">
+          <img
+            class="header__icons__bell"
+            src="./assets/img/уведомления.png"
+            alt=""
+          />
+          <div class="header__icons__kz">kz</div>
+        </div>
+      </div>
+    </header>
 
-      <section class="millionaire">
-        <p class="millionaire__date">С 15 января по 26 февраля 2023</p>
-        <h1 class="millionaire__title">Миллионер каждую неделю</h1>
+    <section class="millionaire">
+      <p class="millionaire__date">С 15 января по 26 февраля 2023</p>
+      <h1 class="millionaire__title">Миллионер каждую неделю</h1>
+      <div class="background-image__svet">
         <div class="background-image__ospan">
           <button class="millionaire__button button">Подробнее</button>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="promotion-lottery">
+      <div class="promotion__button-container">
+        <button class="promotion__button button__online-ticket button-white">
+          Онлайн-билет
+        </button>
+        <button class="promotion__button button__paper-ticket button-blue">
+          Бумажный билет
+        </button>
+      </div>
+      <iframe
+        class="iframe"
+        src="./online-ticket.html"
+        width="360"
+        height="580"
+        frameborder="0"
+        allowtransparency="true"
+        allowfullscreen="true"
+        allowscriptaccess="always"
+      ></iframe>
+    </section>
+    <section class="draw-dates">
+      <img src="./assets/img/img-ospan-2.png" alt="" />
+      <div class="draw-dates__container">
+        <h2 class="draw-dates__title">Даты розыгрышей</h2>
 
-      <section class="promotion-lottery">
-        <div class="promotion__button-container">
-          <button class="promotion__button button__online-ticket button-white">
-            Онлайн-билет
-          </button>
-          <button class="promotion__button button__paper-ticket button-blue">
-            Бумажный билет
-          </button>
+        <div class="accordion__container">
+          <div class="accordion">
+            <div class="accordion__date"><span>22</span>января</div>
+            <div class="accordion__description">
+              <span>1 000 000 ₸, iPhone 14</span> и <span>5</span> призов по
+              <span>50 000 ₸</span>
+            </div>
+          </div>
+          <div class="panel">
+            <p>
+              участвуют билеты, зарегистрированные с 15.01.2023 00:00 по
+              21.01.2023 23:59
+            </p>
+            <div class="panel__link">
+              <a href="#">Список участников</a>
+              <a href="#">Победители</a>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div class="accordion__date"><span>5</span>февраля</div>
+            <div class="accordion__description">
+              <span>1 000 000 ₸, iPhone 14</span> и <span>5</span> призов по
+              <span>50 000 ₸</span>
+            </div>
+          </div>
+          <div class="panel">
+            <p>
+              участвуют билеты, зарегистрированные с 15.01.2023 00:00 по
+              21.01.2023 23:59
+            </p>
+            <div class="panel__link">
+              <a href="#">Список участников</a>
+              <a href="#">Победители</a>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div class="accordion__date"><span>12</span>февраля</div>
+            <div class="accordion__description">
+              <span>1 000 000 ₸, iPhone 14</span> и <span>5</span> призов по
+              <span>50 000 ₸</span>
+            </div>
+          </div>
+          <div class="panel">
+            <p>
+              участвуют билеты, зарегистрированные с 15.01.2023 00:00 по
+              21.01.2023 23:59
+            </p>
+            <div class="panel__link">
+              <a href="#">Список участников</a>
+              <a href="#">Победители</a>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div class="accordion__date"><span>19</span>февраля</div>
+            <div class="accordion__description">
+              <span>1 000 000 ₸, iPhone 14</span> и <span>5</span> призов по
+              <span>50 000 ₸</span>
+            </div>
+          </div>
+          <div class="panel">
+            <p>
+              участвуют билеты, зарегистрированные с 15.01.2023 00:00 по
+              21.01.2023 23:59
+            </p>
+            <div class="panel__link">
+              <a href="#">Список участников</a>
+              <a href="#">Победители</a>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div class="accordion__date"><span>26</span>февраля</div>
+            <div class="accordion__description">
+              <span>1 000 000 ₸, iPhone 14</span> и <span>5</span> призов по
+              <span>50 000 ₸</span>
+            </div>
+          </div>
+          <div class="panel">
+            <p>
+              участвуют билеты, зарегистрированные с 15.01.2023 00:00 по
+              21.01.2023 23:59
+            </p>
+            <div class="panel__link">
+              <a href="#">Список участников</a>
+              <a href="#">Победители</a>
+            </div>
+          </div>
         </div>
-        <iframe
-          class="iframe"
-          src="./online-ticket.html"
-          width="360"
-          height="580"
-          frameborder="0"
-          allowtransparency="true"
-          allowfullscreen="true"
-          allowscriptaccess="always"
-        ></iframe>
-      </section>
-    </div>
+
+        <div class="check-registration">
+          <h2>Регистрация чека</h2>
+          <h3>Личные данные</h3>
+          <input type="text" placeholder="Фамилия, имя, отчество" />
+          <input type="text" placeholder="Телефон" />
+          <img src="./assets/img/check.png" alt="check" />
+          <h3>Данные чека</h3>
+          <input type="text" placeholder="Порядковый номер чека" />
+          <input type="text" placeholder="Фискальный признак" />
+          <div class="check-registration__checkbox">
+            <input type="checkbox" />
+            <p>
+              Мне исполнилось 18 лет, я согласен получать SMS от АО "Сәтті
+              Жұлдыз".
+            </p>
+          </div>
+          <div class="check-registration__text">
+            Проверьте правильность внесенной информации. После регистрации
+            изменить данные будет невозможно.
+          </div>
+          <button>Зарегистрировать</button>
+        </div>
+
+        <div class="verification">
+          <h2>Проверка участия в розыгрыше</h2>
+          <div class="verification__phone-number">+7 777 456 11 22</div>
+          <p>
+            Информация по билетам, приобретенным онлайн, обновляется каждый день
+            в 00:00
+          </p>
+          <button>Проверить</button>
+        </div>
+      </div>
+    </section>
     <script src="./script.js"></script>
   </body>
 </html>

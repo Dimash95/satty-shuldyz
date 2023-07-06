@@ -3,15 +3,12 @@
 @import "./css/burger-menu.css";
 @import "./css/millionaire.css";
 @import "./css/promotion-lottery.css";
+@import "./css/draw-dates.css";
+@import "./css/check-registration.css";
+@import "./css//verification.css";
 
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-.background-container {
-  background: no-repeat;
-  background-image: url("./assets/img/back.png");
-}
-
