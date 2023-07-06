@@ -75,10 +75,19 @@
   transition: max-height 0.2s ease-out;
 }
 
+.panel__text {
+  padding: 20px 0px;
+}
+
+.panel p {
+  margin: 0;
+}
+
 .panel__link {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 10px;
 }
 
 .panel__link a {
