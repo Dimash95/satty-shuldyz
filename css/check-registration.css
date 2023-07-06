@@ -55,7 +55,9 @@
   border-radius: 15px;
 }
 
-.check-registration button:hover,
-.check-registration button:active {
+.check-registration button:hover {
   opacity: 0.8;
+}
+.check-registration button:active {
+  opacity: 1.2;
 }

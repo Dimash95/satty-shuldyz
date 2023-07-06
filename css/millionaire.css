@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   background-color: #fecc01;
+  z-index: 11;
 }
 
 .millionaire__date {
@@ -26,7 +27,9 @@
   background: no-repeat;
   background-color: #fecc01;
   background-image: url("../assets/img/svet.png");
+  border-radius: 0px 0px 359px 360px / 0px 0px 70px 79px;
   background-size: contain;
+  z-index: 11;
 }
 
 .background-image__ospan {
@@ -34,9 +37,12 @@
   justify-content: center;
   width: 360px;
   background-image: url("../assets/img/ospan2.png");
+  border-radius: 0px 0px 359px 360px / 0px 0px 70px 79px;
+  z-index: 11;
 }
 
 .millionaire__button {
+  cursor: pointer;
   margin-top: 420px;
   margin-bottom: 50px;
   width: 296px;
@@ -48,4 +54,11 @@
   background: none;
   border: 1px solid white;
   border-radius: 15px;
+}
+
+.millionaire__button:hover {
+  opacity: 0.8;
+}
+.millionaire__button:active {
+  opacity: 1.2;
 }

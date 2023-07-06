@@ -1,6 +1,13 @@
 .promotion-lottery {
+  position: relative;
+  padding-top: 50px;
+  margin-top: -50px;
+  padding-bottom: 70px;
+  margin-bottom: -70px;
+  border-radius: 0px 0px 360px 190px / 0px 0px 90px 36px;
   text-align: center;
   background-color: #004e8f;
+  z-index: 10;
 }
 
 .promotion__button-container {
@@ -10,6 +17,7 @@
 }
 
 .promotion__button {
+  cursor: pointer;
   width: 156px;
   height: 40px;
   font-size: 15px;
@@ -18,9 +26,11 @@
   transition: 0.4s;
 }
 
-.promotion__button:hover,
-.promotion__button:active {
+.promotion__button:hover {
   opacity: 0.8;
+}
+.promotion__button:active {
+  opacity: 1.2;
 }
 
 .button-white {
