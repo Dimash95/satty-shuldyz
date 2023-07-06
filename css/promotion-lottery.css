@@ -47,6 +47,7 @@
   flex-direction: column;
   gap: 10px;
 }
+
 .promotion__text ul li {
   font-size: 16px;
   color: white;
