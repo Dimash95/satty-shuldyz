@@ -9,6 +9,7 @@
   text-align: center;
   background-color: #004e8f;
   z-index: 3;
+  overflow: hidden;
 }
 
 .promotion-lottery img {
@@ -174,15 +175,16 @@
     height: auto;
   }
 
-  .promotion-lottery img {
+  .promotion-lottery-img img {
     display: block;
     max-width: 100%;
     height: auto;
+    background-size: contain;
   }
 
   .iframe {
     margin-right: 0;
-    width: 800px;
+    width: 500px;
     margin-top: 40px;
   }
 
@@ -201,5 +203,17 @@
   .lottery-list {
     margin-right: 0;
     width: 450px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .iframe {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .iframe {
+    width: 800px;
   }
 }

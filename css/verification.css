@@ -1,6 +1,5 @@
 .verification-container {
   position: relative;
-  display: flex;
 }
 
 .verification__content {
@@ -55,18 +54,17 @@
 
 @media screen and (min-width: 768px) {
   .verification-container {
-    margin-bottom: -1000px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1000px;
+    margin-top: 200px;
+    margin-bottom: -120px;
   }
 
   .verification {
-    width: 380px;
-  }
-
-  .verification-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 200px;
-    margin-bottom: -120px;
+    width: 500px;
+    height: 500px;
   }
 
   .green-chair-of-king {
@@ -74,5 +72,12 @@
     max-width: 600px;
     height: auto;
     background-size: cover;
+  }
+}
+
+@media screen and (min-width: 890px) {
+  .verification {
+    width: 380px;
+    height: 380px;
   }
 }

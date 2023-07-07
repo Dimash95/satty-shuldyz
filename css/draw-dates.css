@@ -121,6 +121,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .draw-dates {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .draw-dates__wrapper {
     flex-direction: row;
     gap: 50px;
@@ -131,11 +136,11 @@
     border-radius: 0px 0px 0px 0px;
   }
 
-  .draw-dates img {
-    max-width: 716px;
+  .draw-dates__wrapper-img img {
+    display: flex;
+    max-width: 100%;
     height: auto;
     background-size: cover;
-    margin: 0;
   }
 
   .draw-dates__container {
