@@ -1,12 +1,12 @@
 .promotion-lottery {
+  position: relative;
   padding-top: 50px;
   margin-top: -50px;
-  padding-bottom: 70px;
   margin-bottom: -70px;
   border-radius: 0px 0px 360px 190px / 0px 0px 90px 36px;
   text-align: center;
   background-color: #004e8f;
-  z-index: 10;
+  z-index: 3;
 }
 
 .promotion__button-container {
@@ -122,4 +122,34 @@
 
 .lottery-list__instant::before {
   content: url("../assets/img/clock.png");
+}
+
+.where-buy h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.where-buy p {
+  color: white;
+}
+
+.where-buy button {
+  width: 296px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.where-buy button:hover {
+  opacity: 0.8;
+}
+
+.where-buy button:active {
+  opacity: 1.2;
 }

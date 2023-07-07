@@ -4,8 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 10px;
   background-color: #fecc01;
   border-radius: 0px 0px 236px 306px / 0px 0px 61px 56px;
+  z-index: 4;
 }
 
 .millionaire__date {
@@ -17,9 +19,10 @@
 }
 
 .millionaire__title {
+  max-width: 460px;
   text-align: center;
   margin: 0;
-  font-size: 32px;
+  font-size: 5vh;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -34,7 +37,6 @@
   background-image: url("../assets/img/svet.png");
   border-radius: 0px 0px 236px 306px / 0px 0px 61px 56px;
   background-size: contain;
-  /* z-index: 11; */
 }
 
 .background-image__svet img {
@@ -43,6 +45,10 @@
   background-size: cover;
   overflow: hidden;
   border-radius: 0px 0px 236px 306px / 0px 0px 61px 56px;
+}
+
+.button-top {
+  display: none;
 }
 
 .millionaire__button {
@@ -62,6 +68,36 @@
 .millionaire__button:hover {
   opacity: 0.8;
 }
+
 .millionaire__button:active {
   opacity: 1.2;
+}
+
+@media screen and (min-width: 769px) {
+  .millionaire {
+    flex-direction: row;
+  }
+
+  .millionaire__text {
+    order: 1;
+  }
+
+  .button-img {
+    display: none;
+  }
+
+  .button-top {
+    display: block;
+    margin: 0 auto;
+    color: black;
+    border-color: black;
+  }
+
+  .button-top:hover {
+    opacity: 0.6;
+  }
+
+  .button-top:active {
+    opacity: 1.2;
+  }
 }

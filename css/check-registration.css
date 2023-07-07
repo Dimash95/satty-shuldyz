@@ -1,5 +1,10 @@
 .check-registration {
   display: none;
+  max-width: 330px;
+}
+
+.check-registration__content {
+  display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 40px;
@@ -9,15 +14,15 @@
   text-align: start;
 }
 
-.check-registration h2 {
+.check-registration__content h2 {
   margin: 0;
 }
 
-.check-registration h3 {
+.check-registration__content h3 {
   margin: 0;
 }
 
-.check-registration input {
+.check-registration__content input {
   padding: 10px;
   border: 1px solid gray;
   border-radius: 10px;
@@ -43,7 +48,7 @@
   background-color: #eaeff7;
 }
 
-.check-registration button {
+.check-registration__content button {
   width: 296px;
   height: 50px;
   text-align: center;
@@ -55,9 +60,9 @@
   border-radius: 15px;
 }
 
-.check-registration button:hover {
+.check-registration__content button:hover {
   opacity: 0.8;
 }
-.check-registration button:active {
+.check-registration__content button:active {
   opacity: 1.2;
 }

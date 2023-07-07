@@ -28,7 +28,7 @@ const changeIframe = () => {
 
   paperTicket.addEventListener("click", () => {
     iFrame.src = "./paper-ticket.html";
-    iFrame.height = "970";
+    iFrame.height = "1200";
     paperTicket.classList.remove("button-blue");
     paperTicket.classList.add("button-white");
     onlineTicket.classList.add("button-blue");

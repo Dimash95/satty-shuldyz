@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <title>Satty Zhuldyz</title>
   </head>
   <body>
     <header>
@@ -41,12 +41,14 @@
     </header>
 
     <section class="millionaire">
-      <p class="millionaire__date">С 15 января по 26 февраля 2023</p>
-      <h1 class="millionaire__title">Миллионер каждую неделю</h1>
+      <div class="millionaire__text">
+        <p class="millionaire__date">С 15 января по 26 февраля 2023</p>
+        <h1 class="millionaire__title">Миллионер каждую неделю</h1>
+        <button class="millionaire__button button-top">Подробнее</button>
+      </div>
       <div class="background-image__svet">
         <img src="./assets/img/ospan2.png" alt="ospan" />
-        <button class="millionaire__button button">Подробнее</button>
-        <!-- <div class="background-image__ospan"></div> -->
+        <button class="millionaire__button button-img">Подробнее</button>
       </div>
     </section>
     <section class="promotion-lottery">
@@ -177,38 +179,27 @@
           </div>
         </div>
 
-        <div class="check-registration">
-          <h2>Регистрация чека</h2>
-          <h3>Личные данные</h3>
-          <input type="text" placeholder="Фамилия, имя, отчество" />
-          <input type="text" placeholder="Телефон" />
-          <img src="./assets/img/check.png" alt="check" />
-          <h3>Данные чека</h3>
-          <input type="text" placeholder="Порядковый номер чека" />
-          <input type="text" placeholder="Фискальный признак" />
-          <div class="check-registration__checkbox">
-            <input type="checkbox" />
-            <p>
-              Мне исполнилось 18 лет, я согласен получать SMS от АО "Сәтті
-              Жұлдыз".
-            </p>
-          </div>
-          <div class="check-registration__text">
-            Проверьте правильность внесенной информации. После регистрации
-            изменить данные будет невозможно.
-          </div>
-          <button>Зарегистрировать</button>
-        </div>
+        <iframe
+          class="check-registration"
+          src="./check-registration.html"
+          width="330"
+          height="930"
+          frameborder="0"
+          allowtransparency="true"
+          allowfullscreen="true"
+          allowscriptaccess="always"
+        ></iframe>
 
-        <div class="verification">
-          <h2>Проверка участия в розыгрыше</h2>
-          <div class="verification__phone-number">+7 777 456 11 22</div>
-          <p>
-            Информация по билетам, приобретенным онлайн, обновляется каждый день
-            в 00:00
-          </p>
-          <button>Проверить</button>
-        </div>
+        <iframe
+          class="verification"
+          src="./verification.html"
+          width="330"
+          height="330"
+          frameborder="0"
+          allowtransparency="true"
+          allowfullscreen="true"
+          allowscriptaccess="always"
+        ></iframe>
       </div>
     </section>
 
