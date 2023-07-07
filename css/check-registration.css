@@ -1,0 +1,96 @@
+.check-registration__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: start;
+}
+
+.check-registration__content h2 {
+  margin: 0;
+}
+
+.check-registration__content h3 {
+  margin: 0;
+}
+
+.check-registration__content input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.check-registration__checkbox {
+  display: flex;
+  gap: 10px;
+  vertical-align: top;
+}
+
+.check-registration__checkbox input {
+  border: 1px solid gray;
+}
+
+.check-registration__checkbox p {
+  color: gray;
+}
+
+.check-registration__text {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eaeff7;
+}
+
+.check-registration__content button {
+  cursor: pointer;
+  width: 296px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #fecc01;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.check-registration__content button:active {
+  opacity: 1.5;
+}
+
+.check-registration__content button:hover {
+  opacity: 0.6;
+}
+
+.check-desktop {
+  display: none;
+}
+
+.check-mobile {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .check-registration-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .check-registration {
+    width: 360px;
+    height: 1000px;
+    margin-top: 100px;
+  }
+
+  .check-mobile {
+    display: none;
+  }
+
+  .check-desktop {
+    display: block;
+  }
+}

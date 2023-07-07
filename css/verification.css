@@ -1,0 +1,90 @@
+.verification-container {
+  position: relative;
+}
+
+.verification__content {
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.verification__content h2 {
+  text-align: start;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.verification__phone-number {
+  text-align: start;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.verification__content p {
+  color: gray;
+}
+
+.verification__content a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 296px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #fecc01;
+  border: none;
+  border-radius: 15px;
+}
+
+.verification__content a {
+  text-decoration: none;
+  color: white;
+}
+.verification__content a:active {
+  opacity: 1.5;
+}
+
+.verification__content a:hover {
+  opacity: 0.6;
+}
+
+.green-chair-of-king {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .verification-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1000px;
+    margin-top: 200px;
+    margin-bottom: -120px;
+  }
+
+  .verification {
+    width: 500px;
+    height: 500px;
+  }
+
+  .green-chair-of-king {
+    display: block;
+    max-width: 600px;
+    height: auto;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 890px) {
+  .verification {
+    width: 380px;
+    height: 380px;
+  }
+}
