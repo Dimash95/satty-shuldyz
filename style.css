@@ -9,8 +9,20 @@
 @import "./css/questions.css";
 @import "./css/footer.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
 }

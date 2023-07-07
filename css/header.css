@@ -36,6 +36,7 @@
 
 .header__icons__bell-desktop {
   display: none;
+  cursor: pointer;
 }
 
 .header__icons__bell-mobile {
@@ -45,6 +46,7 @@
 
 .header__icons__kz-desktop {
   display: none;
+  cursor: pointer;
 }
 
 .header__icons__kz-mobile {
@@ -82,11 +84,6 @@
 
   .header__title {
     display: none;
-  }
-
-  .nav ul li {
-    font-size: 15px;
-    color: black;
   }
 
   .header__icons__bell-desktop {

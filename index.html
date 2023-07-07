@@ -18,12 +18,12 @@
           />
           <nav class="nav">
             <ul>
-              <li>Лотереи</li>
-              <li>Акции</li>
-              <li>Кошелек</li>
-              <li>Мои билеты</li>
-              <li>Архив тиражей</li>
-              <li>Проверка билета</li>
+              <li><a href="#iframe">Лотереи</a></li>
+              <li><a href="#iframe">Акции</a></li>
+              <li><a href="#check-registration">Кошелек</a></li>
+              <li><a href="#check-registration">Мои билеты</a></li>
+              <li><a href="#verification">Архив тиражей</a></li>
+              <li><a href="#verification">Проверка билета</a></li>
               <li>
                 <img
                   class="header__icons__bell-desktop"
@@ -63,11 +63,15 @@
       <div class="millionaire__text">
         <p>С 15 января по 26 февраля 2023</p>
         <h1>Миллионер каждую неделю</h1>
-        <button class="millionaire__button button-top">Подробнее</button>
+        <a class="millionaire__button button-top" href="#check-registration"
+          >Подробнее</a
+        >
       </div>
       <div class="background-image__svet">
         <img src="./assets/img/ospan2.png" alt="ospan" />
-        <button class="millionaire__button button-img">Подробнее</button>
+        <a class="millionaire__button button-img" href="#check-registration"
+          >Подробнее</a
+        >
       </div>
     </section>
 
@@ -82,14 +86,11 @@
           </button>
         </div>
         <iframe
+          id="iframe"
           class="iframe"
           src="./online-ticket.html"
-          width="330px"
-          height="580px"
-          frameborder="0"
-          allowtransparency="true"
-          allowfullscreen="true"
-          allowscriptaccess="always"
+          width="330"
+          height="580"
         ></iframe>
       </div>
       <div class="promotion-lottery-img">
@@ -216,14 +217,11 @@
       <div class="iframe-container">
         <div class="check-registration-container">
           <iframe
+            id="check-registration"
             class="check-registration"
             src="./check-registration.html"
             width="330"
             height="930"
-            frameborder="0"
-            allowtransparency="true"
-            allowfullscreen="true"
-            allowscriptaccess="always"
           ></iframe>
           <div class="check-desktop">
             <img src="./assets/img/check-desktop.png" alt="check-desktop" />
@@ -232,14 +230,11 @@
 
         <div class="verification-container">
           <iframe
+            id="verification"
             class="verification"
             src="./verification.html"
             width="330"
             height="330"
-            frameborder="0"
-            allowtransparency="true"
-            allowfullscreen="true"
-            allowscriptaccess="always"
           ></iframe>
           <div>
             <img
@@ -334,26 +329,26 @@
     </section>
 
     <footer class="footer">
-      <a href="#">
+      <a href="#iframe">
         <img src="./assets/img/footer/icon-lottery.png" alt="icon-lottery" />
         Лотереи
       </a>
-      <a href="#">
+      <a href="#iframe">
         <img
           src="./assets/img/footer/icon-promotion.png"
           alt="icon-promotion"
         />
         Акции
       </a>
-      <a href="#">
+      <a href="#check-registration">
         <img src="./assets/img/footer/icon-wallet.png" alt="icon-wallet" />
         Кошелек
       </a>
-      <a href="#">
+      <a href="#check-registration">
         <img src="./assets/img/footer/icon-ticket.png" alt="icon-ticket" />
         Мои билеты
       </a>
-      <a href="#">
+      <a href="#verification">
         <img src="./assets/img/footer/icon-calendar.png" alt="icon-calendar" />
         Архив
       </a>
