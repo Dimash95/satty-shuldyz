@@ -13,6 +13,17 @@
   z-index: 2;
 }
 
+.draw-dates__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.draw-dates img {
+  width: 100%;
+  height: auto;
+}
+
 .draw-dates__container {
   width: 330px;
   margin: 0 auto;
@@ -107,4 +118,27 @@
 
 .panel__link a:before {
   content: url("../assets/img/file-icon.png");
+}
+
+@media screen and (min-width: 768px) {
+  .draw-dates__wrapper {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .draw-dates {
+    padding-bottom: 0;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .draw-dates img {
+    max-width: 716px;
+    height: auto;
+    background-size: cover;
+    margin: 0;
+  }
+
+  .draw-dates__container {
+    margin: 0;
+  }
 }

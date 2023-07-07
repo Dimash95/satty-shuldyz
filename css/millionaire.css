@@ -10,7 +10,7 @@
   z-index: 4;
 }
 
-.millionaire__date {
+.millionaire__text p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 10px;
@@ -18,11 +18,11 @@
   text-transform: uppercase;
 }
 
-.millionaire__title {
+.millionaire__text h1 {
   max-width: 460px;
   text-align: center;
   margin: 0;
-  font-size: 5vh;
+  font-size: 3vh;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -43,12 +43,7 @@
   max-width: 100%;
   height: auto;
   background-size: cover;
-  overflow: hidden;
   border-radius: 0px 0px 236px 306px / 0px 0px 61px 56px;
-}
-
-.button-top {
-  display: none;
 }
 
 .millionaire__button {
@@ -65,39 +60,58 @@
   border-radius: 15px;
 }
 
-.millionaire__button:hover {
-  opacity: 0.8;
-}
-
 .millionaire__button:active {
-  opacity: 1.2;
+  opacity: 0.6;
 }
 
-@media screen and (min-width: 769px) {
+.button-top {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
   .millionaire {
     flex-direction: row;
+    border-radius: 0px 0px 0px 0px;
   }
 
   .millionaire__text {
     order: 1;
   }
 
-  .button-img {
-    display: none;
+  .millionaire__text p {
+    text-align: start;
+  }
+
+  .millionaire__text h1 {
+    text-align: start;
+  }
+
+  .background-image__svet {
+    margin: 0;
   }
 
   .button-top {
     display: block;
+  }
+
+  .millionaire__button {
+    display: block;
     margin: 0 auto;
+    margin-left: 0;
+    margin-top: 10px;
     color: black;
     border-color: black;
   }
 
-  .button-top:hover {
+  .millionaire__button:hover {
     opacity: 0.6;
   }
 
-  .button-top:active {
+  .millionaire__button:active {
     opacity: 1.2;
+  }
+
+  .button-img {
+    display: none;
   }
 }

@@ -72,3 +72,20 @@ const showCheckRegistration = () => {
   });
 };
 showCheckRegistration();
+
+// * Change img
+
+const changeImg = () => {
+  const onlineTicket = document.querySelector(".button__online-ticket");
+  const paperTicket = document.querySelector(".button__paper-ticket");
+  const ticketImg = document.querySelector(".ticket-img");
+
+  paperTicket.addEventListener("click", () => {
+    ticketImg.src = "./assets/img/paper-ticket-img.png";
+  });
+
+  onlineTicket.addEventListener("click", () => {
+    ticketImg.src = "./assets/img/online-ticket-img.png";
+  });
+};
+changeImg();

@@ -1,12 +1,18 @@
 .promotion-lottery {
   position: relative;
-  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
   margin-top: -50px;
   margin-bottom: -70px;
   border-radius: 0px 0px 360px 190px / 0px 0px 90px 36px;
   text-align: center;
   background-color: #004e8f;
   z-index: 3;
+}
+
+.promotion-lottery img {
+  display: none;
 }
 
 .promotion__button-container {
@@ -152,4 +158,48 @@
 
 .where-buy button:active {
   opacity: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .promotion-lottery {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .promotion-lottery__text {
+    max-width: 900px;
+    height: auto;
+  }
+
+  .promotion-lottery img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .iframe {
+    margin-right: 0;
+    width: 800px;
+    margin-top: 40px;
+  }
+
+  .promotion__button-container {
+    max-width: 530px;
+    justify-content: end;
+    margin: 0 auto;
+  }
+  .promotion-lottery__text {
+    margin-right: 0;
+  }
+  .promotion__text {
+    margin-right: 0;
+    width: 450px;
+  }
+  .lottery-list {
+    margin-right: 0;
+    width: 450px;
+  }
 }

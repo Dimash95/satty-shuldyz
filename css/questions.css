@@ -20,6 +20,8 @@
 }
 
 .accordion-white {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
   font-weight: 700;
   color: black;
@@ -30,7 +32,6 @@
   font-size: 13px;
   color: white;
   float: right;
-  margin-left: 5px;
 }
 
 .active:after {
@@ -72,4 +73,27 @@
 
 .important ul li span {
   color: #fecc01;
+}
+
+@media screen and (min-width: 768px) {
+  .questions {
+    padding-top: 300px;
+  }
+
+  .questions__content {
+    width: 1000px;
+  }
+  .questions h2 {
+    font-size: 42px;
+    max-width: 1000px;
+  }
+  .important-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+  }
+
+  .important {
+    flex: 1;
+  }
 }

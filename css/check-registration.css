@@ -1,6 +1,5 @@
 .check-registration {
   display: none;
-  max-width: 330px;
 }
 
 .check-registration__content {
@@ -65,4 +64,24 @@
 }
 .check-registration__content button:active {
   opacity: 1.2;
+}
+
+.check-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .check-registration {
+    width: 360px;
+    height: 1000px;
+    margin-top: 100px;
+  }
+
+  .check-mobile {
+    display: none;
+  }
+
+  .check-desktop {
+    display: block;
+  }
 }
