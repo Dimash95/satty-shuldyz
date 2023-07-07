@@ -5,7 +5,7 @@ const openCloseBurgerMenu = () => {
   const navbar = document.querySelector(".nav");
 
   burgerMenu.addEventListener("click", () => {
-    this.classList.toggle("active");
+    burgerMenu.classList.toggle("active");
     navbar.classList.toggle("open");
   });
 };

@@ -1,10 +1,11 @@
 .millionaire {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #fecc01;
-  z-index: 11;
+  border-radius: 0px 0px 236px 306px / 0px 0px 61px 56px;
 }
 
 .millionaire__date {
@@ -24,27 +25,29 @@
 }
 
 .background-image__svet {
-  background: no-repeat;
-  background-color: #fecc01;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  background-repeat: no-repeat;
   background-image: url("../assets/img/svet.png");
-  border-radius: 0px 0px 359px 360px / 0px 0px 70px 79px;
+  border-radius: 0px 0px 236px 306px / 0px 0px 61px 56px;
   background-size: contain;
-  z-index: 11;
+  /* z-index: 11; */
 }
 
-.background-image__ospan {
-  display: flex;
-  justify-content: center;
-  width: 360px;
-  background-image: url("../assets/img/ospan2.png");
-  border-radius: 0px 0px 359px 360px / 0px 0px 70px 79px;
-  z-index: 11;
+.background-image__svet img {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 0px 0px 236px 306px / 0px 0px 61px 56px;
 }
 
 .millionaire__button {
+  margin-top: -120px;
   cursor: pointer;
-  margin-top: 420px;
-  margin-bottom: 50px;
   width: 296px;
   height: 50px;
   text-align: center;
